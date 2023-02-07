@@ -2,7 +2,7 @@ pipeline {
 
 		agent {
 		
-				label 'built-in'
+				label 'devops'
 		}
 		
 		stages {
