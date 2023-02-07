@@ -2,7 +2,7 @@ pipeline {
 
 		agent {
 		
-				label 'devops'
+				label 'built-in'
 		}
 		
 		stages {
@@ -12,7 +12,7 @@ pipeline {
 			
 			steps {
 			
-			echo "Hello World"
+			echo "getting started"
 			
 			}
 			
@@ -28,7 +28,7 @@ pipeline {
 			
 				steps {
 				
-						sleep 10
+						sleep 2
 				
 				}
 		
@@ -39,7 +39,7 @@ pipeline {
 			
 				steps {
 				
-						sleep 10
+						sleep 2
 				
 				}
 		
@@ -56,7 +56,7 @@ pipeline {
 			
 			steps {
 			
-			echo "Hello World"
+			echo "thankyou"
 			
 			}
 			
